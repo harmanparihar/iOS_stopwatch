@@ -9,10 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBOutlet weak var startBtn: UIButton!
+    @IBOutlet weak var stopBtn: UIButton!
+    @IBOutlet weak var resetBtn: UIButton!
     let stopwatch = Stopwatch()
     @IBOutlet weak var elapsedTimeLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        startBtn.layer.cornerRadius = 37.5
+        stopBtn.layer.cornerRadius = 37.5
+        resetBtn.layer.cornerRadius = 37.5
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -41,4 +48,3 @@ class ViewController: UIViewController {
     }
     
 }
-
