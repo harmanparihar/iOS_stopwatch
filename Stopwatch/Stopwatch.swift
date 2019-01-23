@@ -21,7 +21,7 @@ class Stopwatch {
     }
     
     var elapsedTimeAsString: String {
-        return String(format: "%02d:%02d.%d",
+        return String(format: "%02d:%02d.%02d",
                       Int(elapsedTime / 60), Int(elapsedTime.truncatingRemainder(dividingBy: 60)), Int((elapsedTime * 10).truncatingRemainder(dividingBy: 10)))
     }
     
