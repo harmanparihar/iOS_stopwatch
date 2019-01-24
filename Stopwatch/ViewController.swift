@@ -47,6 +47,8 @@ class ViewController: UIViewController {
     @IBAction func resetButtonTapped(_ sender: UIButton) {
         print("Reset button tapped")
         resetBtn.backgroundColor = UIColor.gray
+        startBtn.backgroundColor = UIColor(red:0.20, green:0.66, blue:0.33, alpha:1.0)
+        stopBtn.backgroundColor = UIColor.gray
         elapsedTimeLabel.text = "00:00.00"
         stopwatch.reset()
     }
