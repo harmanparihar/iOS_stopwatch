@@ -7,4 +7,4 @@ You can use the following features of the application:
 3) Reset Stopwatch
 
 Screenshot
-<img style={width:300px} src="http://drive.google.com/uc?export=view&id=1-hoVaoHdtAyK_jcQg8r16_RgZGnn9BMV" alt="screenshot1">
+<img width="300px" src="http://drive.google.com/uc?export=view&id=1-hoVaoHdtAyK_jcQg8r16_RgZGnn9BMV" alt="screenshot1">
