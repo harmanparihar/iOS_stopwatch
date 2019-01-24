@@ -35,6 +35,7 @@ class Stopwatch {
     }
     
     func start() {
+        
         startTime = Date()
     }
     
